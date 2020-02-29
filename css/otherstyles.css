@@ -1,0 +1,26 @@
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: lightcoral;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    outline: 1px;
+    background-color: darkorange;
+}
+
+button:focus {
+    outline: 10px;
+    background-color: palevioletred;
+}
+
+div {
+    background-color: greenyellow;
+}
+
