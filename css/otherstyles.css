@@ -1,5 +1,5 @@
 a {
-    color: #007bff;
+    color: mediumpurple;
     text-decoration: none;
     background-color: lightcoral;
 }
@@ -7,7 +7,7 @@ a {
 a:hover {
     color: #0056b3;
     text-decoration: underline;
-    background-color: lightgoldenrodyellow;
+    background-color: #faf8a7;
 }
 
 button {
@@ -17,10 +17,10 @@ button {
 
 button:focus {
     outline: 10px;
-    background-color: palevioletred;
+    background-color: lightcoral;
 }
 
 div {
-    background-color: greenyellow;
+    background-color: lightcoral;
 }
 
