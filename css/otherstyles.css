@@ -10,17 +10,73 @@ a:hover {
     background-color: #faf8a7;
 }
 
-button {
-    outline: 1px;
-    background-color: darkorange;
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #959288;
 }
 
-button:focus {
-    outline: 10px;
-    background-color: lightcoral;
+.btn {
+    margin: 0 auto;
+    background-color: #fff5df;
+    border: none;
+    color: #ffbe68;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #8de175;
+}
+
+/* overwrite the carousel size from bootstrap. too big */
+.carousel {
+    margin: 0 auto;
+    width: 75%;
+    height: 75%;
+}
+
+cite {
+    font-style: italic;
 }
 
 div {
-    background-color: lightcoral;
+    margin: 0 auto;
+    background-color: #84b1be;
+}
+
+.scrollbox {
+    margin: 10%;
+    width:300px;
+    height:150px;
+    line-height:3em;
+    overflow:scroll;
+    padding:5px;
+    background-color: #ffffa8;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 5px;
+    background-color: seagreen;
+    align-content: inherit;
+    width: 40%;
+    height: 40%;
+}
+
+li {
+    align-content: inherit;
+    margin: 0 auto;
+    width: inherit;
+    height: inherit;
+}
+
+p {
+    color: #6f42c1;
 }
 

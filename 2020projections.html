@@ -32,5 +32,38 @@
         </ul>
     </div>
 </nav>
+<br><br>
+<label>
+Download link
+    <button class="btn">
+        <a href="./fileToDownload/2020proj.csv" download>
+            Overall Projections for 2020 season - Fantasy Football (.csv file)
+        </a>
+    </button>
+</label>
+<br><br>
+<label>
+    This file was downloaded from
+    <a href="https://www.fantasypros.com"> Fantasy Pros </a>
+</label>
+<br><br>
+Sorry about being lazy, this is using the form from activity 5 to satisfy the form requirement for the project.
+<form>
+    <fieldset>
+        <legend>Get Weather</legend>
+        <label for="city"></label> Enter CITY, COUNTRY:
+        <input type="text" id="city">
+        <input type="submit" id="citySubmit">
+        <br>
+        <label for="zip"></label> or enter ZIP CODE, COUNTRY:
+        <input type="text" id="zip">
+        <input type="submit" id="zipSubmit">
+    </fieldset>
+</form>
+<br>
+<div id="cityOut">City: </div>
+<div id="temp">Temperature: </div>
+<div id="humidity">Humidity: </div>
+<script src="./js/myscript.js"></script>
 </body>
 </html>
